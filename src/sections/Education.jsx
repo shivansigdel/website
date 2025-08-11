@@ -2,6 +2,7 @@
 export default function Education() {
   const courses = [
     "Data Structures",
+    "Algorithms and Complexity",
     "Object-Oriented Programming",
     "Computer Architecture",
     "Software Engineering",
