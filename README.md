@@ -1,12 +1,26 @@
-# React + Vite
+# Shivan Sigdel — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal, fast personal site built with Vite + React, Tailwind CSS (daisyUI), and deployed on Vercel.
 
-Currently, two official plugins are available:
+## Live
+**https://www.shivansigdel.com** (primary)  
+Redirect from **https://shivansigdel.com** → `www`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Responsive layout (About, Education, Experience, Projects, Contact)
+- Light/Dark theme toggle (daisyUI)
+- Smooth section scrolling & subtle reveal animations
+- Contact form via Getform
 
-## Expanding the ESLint configuration
+## Stack
+- **Frontend:** React (Vite)
+- **Styling:** Tailwind CSS v4, daisyUI
+- **Deploy:** Vercel
+- **Forms:** Getform
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Quick Start
+```bash
+git clone git@github.com:shivansigdel/website.git
+cd website
+npm install
+npm run dev     # http://localhost:5173
