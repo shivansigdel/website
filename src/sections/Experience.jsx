@@ -1,5 +1,5 @@
 // src/sections/Experience.jsx
-import { work, fmtRange } from "../data/experienceData";
+import { work, fmtRange } from "../data/experiencedata";
 import ExperienceItem from "../components/ExperienceItem";
 
 export default function Experience() {
