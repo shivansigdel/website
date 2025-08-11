@@ -1,12 +1,11 @@
 // src/sections/About.jsx
-import avatar from "../assets/shivan.jpg";
 
 export default function About() {
   return (
     <section id="about" className="scroll-mt-24 py-16">
       <div className="mx-auto max-w-4xl px-4 text-center">
         <img
-          src={avatar}
+          src="/shivan.jpg"
           alt="Shivan Sigdel"
           className="mx-auto mb-6 size-48 sm:size-56 md:size-64 rounded-full object-cover ring-2 ring-base-300 shadow-sm"
           loading="lazy"
