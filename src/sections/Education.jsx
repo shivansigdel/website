@@ -27,8 +27,6 @@ export default function Education() {
             </span>
           </div>
 
-          <p className="mt-1 text-sm text-base-content/70">GPA: 3.6</p>
-
           <div className="mt-4">
             <p className="text-sm font-semibold text-base-content/80">
               Coursework
