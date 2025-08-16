@@ -13,7 +13,16 @@ export default function Projects() {
         ) : (
           <div className="mt-6 grid gap-6 sm:grid-cols-2">
             {projects.map((p, i) => (
-              <ProjectItem key={`${p.title}-${i}`} project={p} />
+              <div
+                key={`${p.title}-${i}`}
+                className={
+                  i === projects.length - 1 && projects.length % 2 !== 0
+                    ? "sm:col-span-2 flex justify-center"
+                    : ""
+                }
+              >
+                <ProjectItem project={p} />
+              </div>
             ))}
           </div>
         )}
