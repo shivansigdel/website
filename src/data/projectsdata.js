@@ -28,4 +28,19 @@ export const projects = [
     ],
     links: { github: "https://github.com/shivansigdel/Filmly" },
   },
+  {
+    title: "Sigdle — NBA Wordle-Style Game",
+    blurb:
+      "Wordle-inspired NBA guessing game where attributes like team, conference, division, position, height, and jersey number guide you to the mystery player.",
+    tech: ["React", "TailwindCSS", "DaisyUI"],
+    highlights: [
+      "Developed a Wordle-style game focused on NBA players with attribute-based hints instead of letters.",
+      "Implemented tile flip animations, streak/guess tracking, and a mobile-friendly UI with theme support.",
+      "Deployed live version on Netlify with real-time NBA player data integration.",
+    ],
+    links: {
+      demo: "https://sigdle.netlify.app/",
+      github: "https://github.com/shivansigdel/sigdle",
+    },
+  },
 ];
